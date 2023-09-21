@@ -1,3 +1,4 @@
+<!--Html file-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -117,3 +118,153 @@
 </body>
 
 </html>
+
+/*css file*/
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color:purple;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd54f; 
+}
+
+
+.box {
+    background-color:rgb(146, 32, 32);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 1000px 1000px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+    background-color: #2a3f54; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footRight {
+    font-size: 24px;
+}
+
+.footRight a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footRight a:hover {
+    color: #ffd54f; 
+}
+
+
+.firstSec {
+    background-color:#302e64;
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    border-radius: 0px;
+    
+}
+
+.h2head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffd54f; 
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#element {
+    color: #ffd54f; 
+}
+
+
+.about-box {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.projects-box {
+    background-color:orange; 
+    color: #333;
+}
+
+.contact-box {
+    background-color:skyblue; 
+    color: #333;
+}
+
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-text {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #ffd54f; 
+    font-weight: bold;
+}
+
+.card-link:hover {
+    color: #ffab00; 
+}
+
